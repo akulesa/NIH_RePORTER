@@ -13,6 +13,8 @@ With this dataset in hand, one can
 
 **Sample output**   
 
+![20,000 NIH Grants visualized by tSNE](NIH_Grants_20000.png)
+
 `word_vectors.most_similar(positive=['multiple_sclerosis','skin'],negative=['brain'])`  
 
 ```
@@ -33,6 +35,47 @@ With this dataset in hand, one can
     encephalomyelitis_eae
     mog
 ```
+
+`query_grant(50000,grant_vectors_dedup)`
+
+```
+Project Title: 
+
+Develop novel therapeutic strategy for brain tumor
+
+
+Abstract: 
+
+Mutations in isocitrate dehydrogenase (IDH1/2) are common genetic abnormalities in grade II and III diffusive astrocytomas and oligodendrogliomas. In WHO grade II/III gliomas, IDH mutated tumors are highly prevalent comprising nearly 80% of all clinical cases. In glioma, IDH mutations cluster in an arginine residue at the center of the catalytic domain (IDH1 R132, IDH2 R172). Mutant IDH confers neomorphic enzymatic activity that, catalyzes alpha-ketoglutarate (alpha-KG) into 2-hydroxyglutarate (2-HG), an oncometabolite closely related to the deactivation of alpha-KG-dependent deoxygenases. For example, IDH1 mutant derived 2-HG promotes hypoxia signaling by perturbing the catalytic activity of prolyl hydroxylase, resulting in constitutive activation of hypoxia-inducible factor 1alpha (HIF-1alpha). Additionally, 2-HG has also been found to affect collagen maturation and basement membrane function, which may facilitate cancer cell infiltration and promote glioma progression. Clinically, the occurrence of IDH mutations predicts longer survival and greater sensitivity to chemotherapy in low-grade gliomas and secondary glioblastomas. A phase III clinical trial has provided the direct link between IDH mutation and survival benefit from chemotherapy. Combined with O-6-methylguanine-DNA methyltransferase (MGMT) promoter methylation status, IDH mutations serve as an important prognostic marker for gliomas treated with radiation and chemotherapy. Although there has been increasing awareness of the correlation between IDH mutations and chemo-sensitivity, the molecular mechanism that determines the vulnerability that results from IDH mutations remains unanswered. DNA repair is defined as a series of molecular changes that occur in response to compromised chromosomal integrity. DNA repair is integral to cancer therapies based on generating DNA damage in chromosomal DNA, such as radiation therapy and cytotoxic chemotherapies. The activation and expression level of DNA repair pathways largely determines the efficacy of chemotherapies and resulting clinical outcomes. Several studies shed light on the changes in DNA repair mechanism in IDH1-mutated cells, including RAD51 and ATM pathways. The distinct connection between DNA repair pathway and chemo-sensitivity in IDH-mutated cells, however, must be further elucidated. In the present study, we established cell lines that stably expresses either the IDH1 R132C or IDH1 R132H pathogenic mutations. We demonstrate that our cell lines recapitulate the IDH1-mutant phenotypes found in glioma patients. The IDH1 mutations resulted in the metabolic reprogramming and cytotoxic effects via 2-HG production. In addition, cells with mutant IDH failed to form the poly (ADP-ribose) polymer (pADPR), and therefore were unable to maintain genomic integrity. Furthermore, targeting the PARP DNA repair mechanism remarkably potentiated the cytotoxic effects of chemotherapy. Taken together, our findings indicate a potential molecular mechanism of chemo-sensitization in IDH mutant gliomas and, suggests a novel therapeutic strategy for clinical therapies.
+
+
+Most similar word vectors:
+idh_mutation, 0.861701488494873
+glioma, 0.7649029493331909
+idh_mutant, 0.7618250250816345
+idh, 0.753430962562561
+mutant_idh, 0.7279563546180725
+idh_mutate, 0.7206025719642639
+isocitrate_dehydrogenase, 0.7024551630020142
+oncometabolite, 0.6593918204307556
+dehydrogenase_idh, 0.6246827244758606
+mutation_isocitrate, 0.6220428347587585
+
+
+Most similar grants: 
+143175 Exploiting the vulnerabilities in mutant IDH gliomas, 0.9382784366607666
+148052 Project 2 - Targeting IDH-mutant gliomas (Cahill/Kaelin), 0.9043545126914978
+13761 Targeting Nicotinamide Adenine Dinucleotide (NAD+) metabolism in IDH mutant gliomas, 0.8862265348434448
+102345 Novel Approaches to Modeling and Treating IDH1 Mutant Glioma, 0.8796610236167908
+62149 Understanding the role of IDH in malignant gliomas, 0.8785685300827026
+74333 The Role of IDH1 Mutations in Gliomagenesis and Metabolism, 0.8738013505935669
+78787 Modeling low-grade gliomas using human pluripotent stem cells, 0.8685322999954224
+49272 Exploiting Mutant IDH1/2-induced Homologous Recombination Defects in Cancer, 0.8644766807556152
+43422 Elucidating and targeting the molecular foundations of IDH mutant glioma, 0.8513734936714172
+114898 Elucidating and targeting the molecular foundations of IDH Mutant glioma, 0.8513734936714172
+```
+
+
 
 ## To do
 Here are some ideas that I still want to implement: 
