@@ -1,5 +1,7 @@
 # NIH RePORTER
 
+## Summary
+
 I started this project with the goal of learning some NLP and applying it to looking at NIH Funding. The project trains gensim's implementation of word2vec on NIH grant abstracts and creates TF-IDF document vectors. 
 
 With this dataset in hand, one can    
@@ -12,7 +14,14 @@ With this dataset in hand, one can
 **Sample output**   
 ![20,000 NIH Grants visualized by tSNE](NIH_Grants_20000.png)
 
-
+## To do
+Here are some ideas that I still want to implement: 
+- Level of funding to each cluster  
+- Representation of different institutions or locations within each cluster  
+- Identify faculty that are most diverse across clusters vs most focused  
+- Rates of patent activity per cluster  
+- Identify grants that are "unusual" combination of topic vectors  
+- Map startups press release vectors onto grant space.  
 
 ## Setup
 
