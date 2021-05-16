@@ -1,0 +1,13 @@
+name: grantminer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bokeh=2.3.1=py38h50d1736_0
+  - jupyter=1.0.0=py38h50d1736_6
+  - pandas=1.2.4=py38h1f261ad_0
+  - scikit-learn=0.24.2=py38h011f2c5_0
+  - spacy=3.0.6=py38he35c9cc_0
+  - gensim=4.0.1=py38ha048514_0
+  - pyemd=0.5.1=py38h6be0db6_1002
+  - selenium=3.141.0=py38h5406a74_1002 

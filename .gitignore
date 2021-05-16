@@ -1,0 +1,7 @@
+data/*
+models/*
+.DS_Store
+notebooks/out/*
+notebooks/.ipynb_checkpoints
+grantminer/__pycache__
+envs/*
