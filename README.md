@@ -9,7 +9,7 @@ With this dataset in hand, one can
 - cluster grants into unsupervised list of topic categories
 - create nice tSNE visualizations of NIH grant funding
 
-**Sample output**
+**Sample output**   
 ![20,000 NIH Grants visualized by tSNE](NIH_Grants_20000.png)
 
 
