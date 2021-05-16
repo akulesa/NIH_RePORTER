@@ -12,6 +12,25 @@ With this dataset in hand, one can
 - create nice tSNE visualizations of NIH grant funding
 
 **Sample output**   
+
+`word_vectors.most_similar(positive=['multiple_sclerosis','skin'],negative=['brain'])`  
+
+>```
+    vulgaris
+    vitiligo
+    cutaneous
+    atopic_dermatitis
+    blister
+
+`word_vectors.most_similar_cosmul(positive=['multiple_sclerosis','mouse'],negative=['human'])`  
+
+>```
+    experimental_autoimmune
+    cuprizone
+    eae
+    encephalomyelitis_eae
+    mog
+```
 ![20,000 NIH Grants visualized by tSNE](NIH_Grants_20000.png)
 
 ## To do
